@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.3.0)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - MBProgressHUD (1.0.0)
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxDataSources (1.0.2):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.2.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - MBProgressHUD
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxDataSources: 1de77880bf5b7fcee42102adcd5a5d65e5b81541
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: fa603b6fa9591ab070489e43d6d9f3a8580c4150
+
+COCOAPODS: 1.1.1
