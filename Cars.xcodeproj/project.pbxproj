@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5416262A1E608FCC00FDB5B3 /* GoogMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541626291E608FCC00FDB5B3 /* GoogMaps.swift */; };
+		5416262D1E60903000FDB5B3 /* AppMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5416262C1E60903000FDB5B3 /* AppMaps.swift */; };
 		544D77981E4EA6DE002A71E4 /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544D77971E4EA6DE002A71E4 /* MapService.swift */; };
 		544D779D1E4EAAA3002A71E4 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544D779C1E4EAAA3002A71E4 /* CarViewModel.swift */; };
 		544D779F1E4EB068002A71E4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544D779E1E4EB068002A71E4 /* NetworkService.swift */; };
@@ -50,6 +52,8 @@
 /* Begin PBXFileReference section */
 		0C826A2FDF204BA063C3BE6E /* Pods_Cars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2410D34AC161ACB3A0BC0ED8 /* Pods-Cars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cars/Pods-Cars.release.xcconfig"; sourceTree = "<group>"; };
+		541626291E608FCC00FDB5B3 /* GoogMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogMaps.swift; sourceTree = "<group>"; };
+		5416262C1E60903000FDB5B3 /* AppMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMaps.swift; sourceTree = "<group>"; };
 		544D77971E4EA6DE002A71E4 /* MapService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
 		544D779C1E4EAAA3002A71E4 /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 		544D779E1E4EB068002A71E4 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -112,6 +116,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5416262B1E60902100FDB5B3 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				5416262C1E60903000FDB5B3 /* AppMaps.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
 		544D77941E4EA614002A71E4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +136,7 @@
 		544D77951E4EA614002A71E4 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				5416262B1E60902100FDB5B3 /* Apple */,
 				544D779A1E4EA744002A71E4 /* Google */,
 				544D77971E4EA6DE002A71E4 /* MapService.swift */,
 			);
@@ -141,6 +154,7 @@
 		544D779A1E4EA744002A71E4 /* Google */ = {
 			isa = PBXGroup;
 			children = (
+				541626291E608FCC00FDB5B3 /* GoogMaps.swift */,
 			);
 			path = Google;
 			sourceTree = "<group>";
@@ -452,10 +466,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5416262D1E60903000FDB5B3 /* AppMaps.swift in Sources */,
 				544D77A21E4EB8E5002A71E4 /* ViewController.swift in Sources */,
 				54AE4CBF1E4CC85700E8773A /* AppDelegate.swift in Sources */,
 				544D779D1E4EAAA3002A71E4 /* CarViewModel.swift in Sources */,
 				547E5F7B1E59849100052197 /* CarConstants.swift in Sources */,
+				5416262A1E608FCC00FDB5B3 /* GoogMaps.swift in Sources */,
 				544D77981E4EA6DE002A71E4 /* MapService.swift in Sources */,
 				544D779F1E4EB068002A71E4 /* NetworkService.swift in Sources */,
 				547E5F801E59EA8600052197 /* CarListCell.swift in Sources */,

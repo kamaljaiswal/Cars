@@ -41,7 +41,8 @@ class ViewController: UIViewController {
     var dataSource: RxTableViewSectionedReloadDataSource<MySection>?
      let disposeBag = DisposeBag()
     @IBOutlet var mapContainer:UIView!
-    var mapService:MapService?
+    //var mapService:MapService<GoogMaps>?
+    var mapService:MapService<AppMaps>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -107,7 +108,7 @@ class ViewController: UIViewController {
     
     
     func setupMap()  {
-        mapService = MapService(container: mapContainer)
+        mapService = MapService(container: mapContainer, mapType: AppMaps())
         mapService?.setupMap()
     }
     
