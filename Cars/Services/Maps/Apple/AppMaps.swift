@@ -31,12 +31,9 @@ class AppMaps:NSObject, Maps {
         for position in locations {
             let annotation = MKPointAnnotation()
             annotation.coordinate = position
-            annotation.title = "Big Ben"
-            annotation.subtitle = "London"
             mapView.addAnnotation(annotation)
         }
     }
-    
     
     func zoom(to cordinate:CLLocationCoordinate2D) {
         let viewRegion = MKCoordinateRegionMakeWithDistance(cordinate, 500, 500)
