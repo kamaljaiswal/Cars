@@ -21,10 +21,10 @@ public protocol Maps {
     
 }
 
-class MapService<MapType:Maps> {
+class MapService<T:Maps> {
     
-    var map:MapType?
-    init(container:UIView,mapType:MapType) {
+    var map:T?
+    init(container:UIView,mapType:T) {
         map = mapType
         map?.setMapView(frame: container.bounds)
         if let mapV = map?.mapView as? UIView {
@@ -47,4 +47,5 @@ class MapService<MapType:Maps> {
     func zoom(to cordinate:CLLocationCoordinate2D)  {
         map?.zoom(to: cordinate)
     }
+  
 }

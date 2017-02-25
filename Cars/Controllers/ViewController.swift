@@ -111,6 +111,7 @@ class ViewController: UIViewController {
         //mapService = MapService(container: mapContainer, mapType: AppMaps())
         mapService = MapService(container: mapContainer, mapType: GoogMaps())
         mapService?.setupMap()
+        
     }
     
     func plotmarkers()  {
